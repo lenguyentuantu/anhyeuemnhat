@@ -1,2 +1,20 @@
-# anhyeuemnhat
-Chẳng biết anh còn nhớ hay đã quên , dù không thể bên nhau nhưng thật tâm vẫn mong anh ấy thật bình an và hạnh phúc . Xin lỗi vì không đủ sức để tiếp tục nhưng những tháng năm ấy tất cả đều là thật lòng 
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/ddf6cc41-25e3-4270-9b9b-fb9248ee5122
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
