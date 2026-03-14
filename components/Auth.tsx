@@ -180,14 +180,14 @@ const Auth: React.FC<AuthProps> = ({ employees, onLogin, onRegister }) => {
                     onClick={() => { setLoginId('admin'); setLoginPass('123'); }}
                     className="flex-1 py-2 bg-blue-50 text-[#0047AB] rounded-lg text-sm font-bold hover:bg-blue-100 border border-blue-200 transition-all"
                   >
-                    👔 Điền Quản Lý
+                    👔 Quản Lý
                   </button>
                   <button 
                     type="button" 
                     onClick={() => { setLoginId('nhanvien'); setLoginPass('123'); }}
                     className="flex-1 py-2 bg-emerald-50 text-emerald-700 rounded-lg text-sm font-bold hover:bg-emerald-100 border border-emerald-200 transition-all"
                   >
-                    🧑‍⚕️ Điền Nhân Viên
+                    🧑‍⚕️ Nhân Viên
                   </button>
                 </div>
 
